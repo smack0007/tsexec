@@ -1,0 +1,4 @@
+.tscb/
+dist/
+node_modules/
+spec/
