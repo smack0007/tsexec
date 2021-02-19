@@ -24,7 +24,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.app.json",
     "start": "npm run build && node dist/main.js",
-    "release": "npm run build && shx cp package.json ./bin && npm publish bin && git push --follow-tags",
+    "release": "npm run build && shx cp package.json ./dist && npm publish dist && git push --follow-tags",
     "test": "tsc -p tsconfig.spec.json && jasmine --config=jasmine.json"
   }
 }
