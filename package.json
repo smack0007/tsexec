@@ -1,6 +1,6 @@
 {
   "name": "tsexec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A command to directly invoke TypeScript files.",
   "repository": "https://github.com/smack0007/tsexec.git",
   "author": "smack0007 <zachary.snow@gmail.com>",
